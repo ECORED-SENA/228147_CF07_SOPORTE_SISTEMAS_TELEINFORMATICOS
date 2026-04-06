@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_411304" data-name="Rectangle 411304" width="90" height="90" fill="#e8bad8" opacity="0.41"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_412009" data-name="Rectangle 412009" width="64" height="69" transform="translate(13749.001 -7839)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1206559" data-name="Group 1206559" transform="translate(-13736.36 7849.852)">
+    <g id="Group_1206363" data-name="Group 1206363" transform="translate(13736.36 -7849.852)">
+      <g id="Group_1205612" data-name="Group 1205612">
+        <g id="Group_1204580" data-name="Group 1204580">
+          <g id="Mask_Group_1099511" data-name="Mask Group 1099511" transform="translate(0)" clip-path="url(#clip-path)">
+            <g id="Group_1204568" data-name="Group 1204568" transform="translate(0 4.909)">
+              <g id="Group_1204554" data-name="Group 1204554">
+                <ellipse id="Ellipse_12810" data-name="Ellipse 12810" cx="22.428" cy="22.428" rx="22.428" ry="22.428" transform="translate(44.238 34.661)" fill="#7fe5cf"/>
+                <ellipse id="Ellipse_12811" data-name="Ellipse 12811" cx="16.311" cy="16.311" rx="16.311" ry="16.311" fill="#7fe5cf"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Mask_Group_1099755" data-name="Mask Group 1099755" clip-path="url(#clip-path-2)">
+      <g id="antena-movil" transform="translate(13749.001 -7836.5)">
+        <g id="Layer_x0020_1">
+          <g id="Group_1206559-2" data-name="Group 1206559">
+            <path id="Path_1272857" data-name="Path 1272857" d="M56,23.99V50.006H54V23.99Z" fill="#333"/>
+            <path id="Path_1272858" data-name="Path 1272858" d="M19,14.99V50.006H17V14.99Z" fill="#333"/>
+            <path id="Path_1272859" data-name="Path 1272859" d="M49,27.99V50.006H47V27.99Z" fill="#333"/>
+            <path id="Path_1272860" data-name="Path 1272860" d="M42,31.99V50.006H40V31.99Z" fill="#333"/>
+            <path id="Path_1272861" data-name="Path 1272861" d="M35,34.989V50.006H33V34.989Z" fill="#333"/>
+            <path id="Path_1272862" data-name="Path 1272862" d="M28,38.989V50.006H26V38.989Z" fill="#333"/>
+            <path id="Path_1272863" data-name="Path 1272863" d="M9,12.99H28v9.2l-.348.3-9,7.812L18,30.872l-.652-.566-9-7.812L8,22.192v-9.2H9Zm17,2H10v6.3l8,6.944,8-6.944v-6.3Z" fill="#333"/>
+          </g>
+          <path id="Path_1272864" data-name="Path 1272864" d="M0,0H64V64H0Z" fill="none" fill-rule="evenodd"/>
+          <path id="Path_1272865" data-name="Path 1272865" d="M17,14.99H10v6.3l7,6.076Z" fill="#aed581" fill-rule="evenodd"/>
+          <path id="Path_1272866" data-name="Path 1272866" d="M19,14.99V27.364l7-6.076v-6.3Z" fill="#aed581" fill-rule="evenodd"/>
+        </g>
+        <path id="Path_1272867" data-name="Path 1272867" d="M0,0H64V64H0Z" fill="none" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

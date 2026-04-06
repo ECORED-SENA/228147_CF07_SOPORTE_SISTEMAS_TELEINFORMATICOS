@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108.622" height="108.621" viewBox="0 0 108.622 108.621">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_411081" data-name="Rectangle 411081" width="108.622" height="108.622" fill="#e8bad8" opacity="0.41"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_411699" data-name="Rectangle 411699" width="78.449" height="90.518" fill="#fff" stroke="#707070" stroke-width="1" opacity="0"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="path1761" d="M0-65H78.449V13.449H0Z" transform="translate(0 65)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1205814" data-name="Group 1205814" transform="translate(0)">
+    <g id="Group_1205807" data-name="Group 1205807" transform="translate(0)">
+      <g id="Group_1204027" data-name="Group 1204027">
+        <g id="Mask_Group_1099381" data-name="Mask Group 1099381" clip-path="url(#clip-path)">
+          <g id="Group_1204014" data-name="Group 1204014" transform="translate(0 5.925)">
+            <g id="Group_1204000" data-name="Group 1204000">
+              <ellipse id="Ellipse_12722" data-name="Ellipse 12722" cx="27.068" cy="27.068" rx="27.068" ry="27.068" transform="translate(53.392 41.833)" fill="#ffc94a"/>
+              <ellipse id="Ellipse_12723" data-name="Ellipse 12723" cx="19.686" cy="19.686" rx="19.686" ry="19.686" fill="#ffc94a"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Mask_Group_1099574" data-name="Mask Group 1099574" transform="translate(15.007 9.655)" clip-path="url(#clip-path-2)">
+      <g id="g1743" transform="translate(0 6.035)">
+        <g id="g1745" transform="translate(14.935 1.532)">
+          <path id="path1747" d="M0,0H34.714L48.58,13.865V65.582H0Z" fill="#a1ebf5" fill-rule="evenodd"/>
+        </g>
+        <g id="g1749" transform="translate(49.649 1.532)">
+          <path id="path1751" d="M0,0V13.865H13.865Z" fill="#41cddf" fill-rule="evenodd"/>
+        </g>
+        <g id="g1753" transform="translate(39.535 58.517)">
+          <path id="path1755" d="M0,0H13.3V18.4L6.65,14.229,0,18.4Z" fill="#ff9c1d" fill-rule="evenodd"/>
+        </g>
+        <g id="g1757" transform="translate(0 0)">
+          <g id="g1759" clip-path="url(#clip-path-3)">
+            <g id="g1765" transform="translate(35.428 38.171)">
+              <path id="path1767" d="M1.844,0C3.017,0,3.945,1.432,5,1.784s2.615-.255,3.494.389S9.258,4.484,9.9,5.363,12.178,6.645,12.529,7.7s-.7,2.385-.7,3.558,1.052,2.5.7,3.559S10.547,16.277,9.9,17.156s-.53,2.546-1.409,3.19-2.439.038-3.494.389-1.983,1.784-3.156,1.784-2.1-1.432-3.156-1.784-2.615.255-3.494-.389-.765-2.311-1.409-3.19-2.275-1.282-2.627-2.338.7-2.385.7-3.559-1.052-2.5-.7-3.558,1.982-1.459,2.627-2.338.53-2.546,1.409-3.19,2.439-.038,3.494-.389S.671,0,1.844,0" transform="translate(8.913)" fill="#ff877f" fill-rule="evenodd"/>
+            </g>
+            <g id="g1769" transform="translate(14.935 1.532)">
+              <path id="path1771" d="M4.164,11.243h-24.29V-54.339H14.589L28.454-40.474V11.243H17.774" transform="translate(20.126 54.339)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2.539"/>
+            </g>
+            <g id="g1773" transform="translate(49.649 1.532)">
+              <path id="path1775" d="M0,0V13.865H13.865Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2.539"/>
+            </g>
+            <g id="g1777" transform="translate(35.428 38.171)">
+              <path id="path1779" d="M1.844,0C3.017,0,3.945,1.432,5,1.784s2.615-.255,3.494.389S9.258,4.484,9.9,5.363,12.178,6.645,12.529,7.7s-.7,2.385-.7,3.558,1.052,2.5.7,3.559S10.547,16.277,9.9,17.156s-.53,2.546-1.409,3.19-2.439.038-3.494.389-1.983,1.784-3.156,1.784-2.1-1.432-3.156-1.784-2.615.255-3.494-.389-.765-2.311-1.409-3.19-2.275-1.282-2.627-2.338.7-2.385.7-3.559-1.052-2.5-.7-3.558,1.982-1.459,2.627-2.338.53-2.546,1.409-3.19,2.439-.038,3.494-.389S.671,0,1.844,0Z" transform="translate(8.913)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2.539"/>
+            </g>
+            <g id="g1781" transform="translate(39.535 58.517)">
+              <path id="path1783" d="M2.28,0V18.4l-6.65-4.172L-11.02,18.4V0" transform="translate(11.02)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2.539"/>
+            </g>
+            <g id="g1785" transform="translate(22.422 15.398)">
+              <path id="path1787" d="M0,0H19.74" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2.539"/>
+            </g>
+            <g id="g1789" transform="translate(22.422 23.132)">
+              <path id="path1791" d="M0,0H33.777" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2.539"/>
+            </g>
+            <g id="g1793" transform="translate(22.422 30.866)">
+              <path id="path1795" d="M0,0H27.648" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2.539"/>
+            </g>
+            <g id="g1797" transform="translate(54.666 29.334)">
+              <path id="path1799" d="M.263.525A1.535,1.535,0,0,0,1.795-1.007,1.535,1.535,0,0,0,.263-2.539,1.535,1.535,0,0,0-1.27-1.007,1.535,1.535,0,0,0,.263.525" transform="translate(1.27 2.539)" fill-rule="evenodd"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

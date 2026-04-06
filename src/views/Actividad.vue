@@ -17,39 +17,38 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Fundamentos de redes Inalámbricas',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar su nivel de apropiación de los fundamentos técnicos de las redes inalámbricas, incluyendo espectro electromagnético, tecnologías, infraestructura, estándares, seguridad e implementación conforme a normativa de telecomunicaciones.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: 'Una red inalámbrica se caracteriza porque:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Utiliza cableado estructurado como medio principal.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Transmite datos por ondas electromagnéticas.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Funciona únicamente en redes móviles.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Opera sin configuración técnica.',
               esCorrecta: false,
             },
           ],
@@ -58,29 +57,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: 'La banda de 2.4 GHz se destaca por:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Tener menor cobertura que 5 GHz.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Ofrecer buena penetración en obstáculos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ser exclusiva para 5G.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'No presentar interferencias.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +87,28 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: 'El estándar IEEE 802.11 corresponde a:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Normativa nacional colombiana.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Redes cableadas <em>Ethernet</em>.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Especificaciones para redes <em>WiFi</em>.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Telefonía celular.',
               esCorrecta: false,
             },
           ],
@@ -119,29 +117,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: 'El dBm mide:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Intensidad de señal.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Velocidad de internet.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Número de usuarios conectados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Tipo de modulación.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +147,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: 'Una red <i>Mesh</i> permite:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Conectar nodos entre sí con redundancia.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Eliminar puntos de acceso.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Usar solo cableado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Tener un único enlace central.',
               esCorrecta: false,
             },
           ],
@@ -180,29 +177,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: 'WPA3 es un protocolo que:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Aumenta la cobertura.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Reduce interferencias.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Mejora la seguridad <em>WiFi</em>.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Incrementa el ancho de canal.',
               esCorrecta: false,
             },
           ],
@@ -211,29 +207,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: 'El <em>Site Survey</em> se realiza para:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Asignar IP automáticamente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Evaluar cobertura e interferencias.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Crear estándares IEEE.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Configurar VLAN.',
               esCorrecta: false,
             },
           ],
@@ -242,29 +237,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '<em>Zigbee</em> se utiliza principalmente en:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '<em>Streaming</em> de video.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Redes empresariales de alta velocidad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Aplicaciones <em>IoT</em>.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Redes satelitales.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +267,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: 'La reflexión ocurre cuando la señal:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Rebota en una superficie.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Se atenúa por distancia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Se divide en subcanales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Atraviesa sin alteración.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +297,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: 'La CRC en Colombia:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Diseña estándares IEEE.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Regula el espectro nacional.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Fabrica equipos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Administra redes privadas.',
               esCorrecta: false,
             },
           ],
@@ -316,19 +328,29 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Qué característica principal distingue a la tecnología LoRa en redes <em>IoT</em>?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Permitir transmisión de video en alta definición.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Operar únicamente en redes cableadas industriales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ofrecer largo alcance con bajo consumo energético.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Requerir conexión directa con <em>routers WiFi</em>.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -337,18 +359,29 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Cuál es la función principal de un <em>Access Point</em> dentro de una red inalámbrica?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Convertir señales eléctricas en fibra óptica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Permitir la conexión de dispositivos inalámbricos a la red.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Medir variables ambientales en sistemas <em>IoT</em>.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Controlar la frecuencia de transmisión satelital.',
               esCorrecta: false,
             },
           ],
@@ -358,18 +391,28 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            '¿Qué tipo de antena irradia señal en un patrón de 360 grados?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Antena parabólica de alta ganancia.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Antena panel de cobertura dirigida.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Antena omnidireccional de cobertura circular.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Antena Yagi de enlace punto a punto.',
               esCorrecta: false,
             },
           ],
@@ -379,19 +422,29 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué topología inalámbrica permite que los dispositivos se conecten directamente entre sí sin punto de acceso?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Topología infraestructura centralizada.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Topología ad-hoc entre dispositivos.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Topología punto multipunto centralizada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Topología <em>mesh</em> controlada por <em>gateway</em>.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -400,18 +453,183 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Qué técnica de modulación divide el canal en múltiples subportadoras para mejorar la eficiencia?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Modulación FSK de frecuencia simple.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Modulación analógica AM tradicional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Modulación ASK de amplitud digital.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Modulación OFDM de múltiples subportadoras.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Cuál es el mecanismo de cifrado más reciente recomendado para redes <em>WiFi</em> modernas?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'WEP con cifrado RC4.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'WPA con protocolo TKIP.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'WPA2 con cifrado AES.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'WPA3 con autenticación SAE.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué protocolo permite centralizar autenticación, autorización y contabilidad en redes?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Protocolo FTP de transferencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Protocolo HTTP de navegación web.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Protocolo RADIUS de autenticación centralizada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Protocolo SMTP de correo electrónico.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué mecanismo permite dividir una red en segmentos lógicos dentro de la misma infraestructura física?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Sistema NAT de traducción de direcciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Protocolo DHCP de asignación automática.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'VLAN para segmentación lógica de red.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: '<em>Firewall</em> básico del <em>router</em> doméstico.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué parámetro indica la intensidad de señal recibida en una red inalámbrica?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Dirección MAC del dispositivo cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Número de canal utilizado por el AP.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Velocidad máxima del estándar <em>WiFi</em>.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Nivel de señal RSSI medido en dBm.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué proceso analiza el entorno físico antes de instalar una red inalámbrica?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Balanceo automático de carga.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Configuración de cifrado WPA3.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '<em>Site Survey</em> para evaluar cobertura.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Actualización de <em>firmware</em> del <em>router</em>.',
               esCorrecta: false,
             },
           ],
