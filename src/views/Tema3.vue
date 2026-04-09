@@ -26,7 +26,7 @@
       .col-xl
         .box___style_12.mb-3(data-aos="fade-left")
           p.mb-0 En esta arquitectura, los puntos de acceso funcionan como dispositivos de borde que facilitan la conectividad de los usuarios, mientras que equipos como routers, #[i switches] y controladores inalámbricos gestionan el enrutamiento, la seguridad y la administración centralizada de la red.
-        p.mb-0 Adicionalmente, en muchos entornos empresariales los puntos de acceso se alimentan mediante la tecnología #[i Power over Ethernet (PoE)], la cual permite suministrar energía eléctrica y conectividad de datos a través de un mismo cable de red. Esta característica simplifica la instalación física de la infraestructura y reduce costos operativos.
+        p.mb-0 Adicionalmente, en muchos entornos empresariales, los puntos de acceso se alimentan mediante la tecnología #[i Power over Ethernet (PoE)], la cual permite suministrar energía eléctrica y conectividad de datos a través de un mismo cable de red. Esta característica simplifica la instalación física de la infraestructura y reduce costos operativos.
     <!------------------------------------------ SUBTEMA 1 ------------------------------------------>
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -63,7 +63,7 @@
                   img(src='@/assets/curso/temas/img125.png', alt='' style="max-width: 500px").m-auto
               .col-xl-6
                 h4 Compatibilidad con estándares inalámbricos
-                p.mb-0 Garantiza interoperabilidad y aprovechamiento de tecnologías modernas como #[b #[i WiFi] 6 (802.11ax)].
+                p.mb-0 Garantiza interoperabilidad y aprovechamiento de tecnologías modernas como #[b Wi-Fi 6 (802.11ax)].
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 figure
@@ -74,7 +74,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-xl.mb-4.mb-lg-0
         .box___style_3.fit___box_3-1.mb-3(data-aos="zoom-in")
-          p.mb-0 En entornos empresariales de alta densidad se recomienda emplear puntos de acceso con soporte para tecnologías como #[i MU-MIMO], #[i OFDMA] y administración mediante controladores centralizados. Estas características permiten optimizar la eficiencia espectral, mejorar la distribución del ancho de banda y garantizar mayor estabilidad en la conectividad de los usuarios.
+          p.mb-0 En entornos empresariales de alta densidad, se recomienda emplear puntos de acceso con soporte para tecnologías como #[i MU-MIMO], #[i OFDMA] y administración mediante controladores centralizados. Estas características permiten optimizar la eficiencia espectral, mejorar la distribución del ancho de banda y garantizar mayor estabilidad en la conectividad de los usuarios.
         p.mb-0 Estos componentes determinan la capacidad de cobertura, estabilidad y escalabilidad del sistema.
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
@@ -174,9 +174,9 @@
       .col-xl
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="fade-left")
           .row(titulo="Antenas omnidireccionales").ajuste-cajaAcordion
-            p.mb-3 Irradian la señal en un patrón circular de #[ b360 grados] en el plano horizontal. Son utilizadas comúnmente en redes #[i  WiFi] de interiores y entornos empresariales donde se requiere cobertura uniforme alrededor del punto de acceso. Presentan cobertura circular, instalación sencilla y uso frecuente en oficinas y hogares. Su ganancia suele oscilar aproximadamente entre #[ b2 dBi y 9 dBi]. Permiten una distribución uniforme de la señal y son adecuadas para áreas abiertas. Como limitación, presentan menor alcance en comparación con antenas direccionales y pueden generar interferencias si no se configuran correctamente los canales. En procesos de evaluación de red se recomiendan cuando se requiere cobertura general y movilidad de usuarios.
+            p.mb-3 Irradian la señal en un patrón circular de #[b 360 grados] en el plano horizontal. Son utilizadas comúnmente en redes Wi-Fi de interiores y entornos empresariales donde se requiere cobertura uniforme alrededor del punto de acceso. Presentan cobertura circular, instalación sencilla y uso frecuente en oficinas y hogares. Su ganancia suele oscilar aproximadamente entre #[b 2 dBi y 9 dBi]. Permiten una distribución uniforme de la señal y son adecuadas para áreas abiertas. Como limitación, presentan menor alcance en comparación con antenas direccionales y pueden generar interferencias si no se configuran correctamente los canales. En procesos de evaluación de red se recomiendan cuando se requiere cobertura general y movilidad de usuarios.
           .row(titulo="Antenas direccionales").ajuste-cajaAcordion
-            p.mb-3 Concentran la señal en una dirección específica, lo que permite alcanzar mayores distancias en comparación con las antenas omnidireccionales. Entre los tipos más comunes se encuentran la antena panel, la antena Yagi, la antena parabólica y la antena sectorial. Presentan mayor ganancia (generalmente #[b 10 dBi o superior]) y cobertura enfocada, por lo que se utilizan en enlaces punto a punto o punto multipunto. Son empleadas en conexión entre edificios, enlaces rurales y redes metropolitanas. Sus ventajas incluyen mayor alcance, reducción de interferencias laterales y mayor estabilidad en enlaces de larga distancia. Como limitaciones requieren alineación precisa y presentan cobertura limitada fuera del ángulo de transmisión.
+            p.mb-3 Concentran la señal en una dirección específica, lo que permite alcanzar mayores distancias en comparación con las antenas omnidireccionales. Entre los tipos más comunes se encuentran la antena panel, la antena Yagi, la antena parabólica y la antena sectorial. Presentan mayor ganancia (generalmente #[b 10 dBi o superior]) y cobertura enfocada, por lo que se utilizan en enlaces punto a punto o punto multipunto. Son empleadas en conexión entre edificios, enlaces rurales y redes metropolitanas. Sus ventajas incluyen mayor alcance, reducción de interferencias laterales y mayor estabilidad en enlaces de larga distancia. Como limitaciones, requieren alineación precisa y presentan cobertura limitada fuera del ángulo de transmisión.
     .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
         figure
@@ -221,7 +221,7 @@
                 p.mb-0 La combinación de potencia de transmisión y ganancia de antena determina la #[b Potencia Isotrópica Radiada Equivalente (EIRP)], la cual está sujeta a límites regulatorios establecidos por las autoridades nacionales.
     .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
       h4.mb-0 Potencia radiada equivalente (#[i Equivalent Isotropically Radiated Power])
-    p.mb-5 En sistemas inalámbricos no solo influye la potencia generada por el transmisor, sino también la ganancia de la antena utilizada. Para evaluar la potencia real emitida al espacio se utiliza el concepto de Potencia Isotrópica Radiada Equivalente (EIRP). La EIRP representa la potencia total efectiva que un sistema de transmisión irradia hacia el entorno considerando la ganancia de la antena y las pérdidas presentes en el sistema.
+    p.mb-5 En sistemas inalámbricos no solo influye la potencia generada por el transmisor, sino también la ganancia de la antena utilizada. Para evaluar la potencia real emitida al espacio se utiliza el concepto de Potencia Isotrópica Radiada Equivalente (EIRP). La EIRP representa la potencia total efectiva que un sistema de transmisión irradia hacia el entorno, considerando la ganancia de la antena y las pérdidas presentes en el sistema.
     .box___style_13.mb-5(data-aos="zoom-in")
       .row.align-items-center
         .col-xl-auto
@@ -235,7 +235,7 @@
             li.mb-0.d-flex
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b PTX] = potencia del transmisor (dBm).
+              | #[b P]<strong><span class="fit__text-small">TX</span></strong> = potencia del transmisor (dBm).
             li.mb-0.d-flex
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
@@ -280,7 +280,7 @@
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
               | #[b Paso 3]: resultado.
-            p.mb-3.box___style_9.fit___p_box EIRP = 26dBm
+            p.mb-3.box___style_9.fit___p_box EIRP = 26 dBm
         .col-xl-auto.order-1.order-lg-2
           figure
             img(src='@/assets/curso/temas/img144.png', alt='').m-auto
@@ -337,7 +337,7 @@
                 figure
                   img(src='@/assets/curso/temas/img12.svg', alt='' style="max-width: 90px").m-auto
               .col-xl
-                p.mb-0 En redes #[i WiFi] interiores con potencias cercanas a #[b 20-25 dBm EIRP], el alcance típico suele situarse entre #[b 30 y 50 metros], dependiendo de las condiciones físicas del entorno. Por esta razón, en infraestructuras empresariales es habitual distribuir múltiples puntos de acceso con el fin de garantizar cobertura uniforme y evitar zonas sin conectividad.
+                p.mb-0 En redes Wi-Fi interiores con potencias cercanas a #[b 20-25 dBm EIRP], el alcance típico suele situarse entre #[b 30 y 50 metros], dependiendo de las condiciones físicas del entorno. Por esta razón, en infraestructuras empresariales es habitual distribuir múltiples puntos de acceso con el fin de garantizar cobertura uniforme y evitar zonas sin conectividad.
     <!------------------------------------------ SUBTEMA 4 ------------------------------------------>
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")

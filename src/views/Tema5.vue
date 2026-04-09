@@ -118,7 +118,7 @@
       .col-xl.mb-4.mb-lg-0
         .box___style_3.fit___box_3-2.mb-3(data-aos="zoom-in")
           p.mb-0 El cifrado es el proceso mediante el cual la información se transforma en un formato codificado con el propósito de impedir su lectura por personas no autorizadas. En las redes inalámbricas, este mecanismo constituye uno de los principales elementos de protección, ya que permite salvaguardar la #[b confidencialidad de los datos] transmitidos a través del medio radioeléctrico.
-        p.mb-0 A lo largo de la evolución de la seguridad en redes #[i WiFi] se han desarrollado diversos protocolos de cifrado que presentan diferencias en su funcionamiento, nivel de protección y vigencia tecnológica. A continuación, se describen sus principales características.
+        p.mb-0 A lo largo de la evolución de la seguridad en redes Wi-Fi se han desarrollado diversos protocolos de cifrado que presentan diferencias en su funcionamiento, nivel de protección y vigencia tecnológica. A continuación, se describen sus principales características.
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/img188.png', alt='').m-auto
@@ -129,13 +129,13 @@
       .col-xl
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="fade-left")
           .row(titulo="<em>WEP (Wired Equivalent Privacy)</em>").ajuste-cajaAcordion
-            p.mb-3 Fue uno de los primeros mecanismos de seguridad en redes #[i WiFi]. Utiliza el algoritmo #[b RC4], pero presenta vulnerabilidades significativas que permiten su ruptura con relativa facilidad. Actualmente se considera #[b obsoleto] y no se recomienda su uso.
-          .row(titulo="<em>WPA (WiFi Protected Access)</em>").ajuste-cajaAcordion
+            p.mb-3 Fue uno de los primeros mecanismos de seguridad en redes Wi-Fi. Utiliza el algoritmo #[b RC4], pero presenta vulnerabilidades significativas que permiten su ruptura con relativa facilidad. Actualmente se considera #[b obsoleto] y no se recomienda su uso.
+          .row(titulo="WPA (Wi-Fi <em>Protected Access</em>)").ajuste-cajaAcordion
             p.mb-3 Surgió como una mejora frente a las limitaciones de WEP. Introdujo el protocolo TKIP (#[i Temporal Key Integrity Protocol]), lo que permitió incrementar el nivel de seguridad. Sin embargo, con el tiempo se identificaron limitaciones frente a ataques modernos.
           .row(titulo="WPA2").ajuste-cajaAcordion
             p.mb-3 Incorpora el cifrado #[b AES] (#[i Advanced Encryption Standard]) en modo #[b CCMP], proporcionando mayor robustez criptográfica. Ha sido ampliamente adoptado en redes domésticas y empresariales.
           .row(titulo="WPA3").ajuste-cajaAcordion
-            p.mb-3 Representa la versión más reciente de seguridad #[i WiFi]. Integra autenticación #[b SAE] (#[i Simultaneous Authentication of Equals]), mayor protección frente a ataques de fuerza bruta y mejoras en el cifrado para redes públicas. Se considera el protocolo recomendado en entornos empresariales modernos.
+            p.mb-3 Representa la versión más reciente de seguridad Wi-Fi. Integra autenticación #[b SAE] (#[i Simultaneous Authentication of Equals]), mayor protección frente a ataques de fuerza bruta y mejoras en el cifrado para redes públicas. Se considera el protocolo recomendado en entornos empresariales modernos.
     p.mb-5 La evolución de estos protocolos evidencia el fortalecimiento progresivo de los mecanismos de seguridad inalámbrica y la necesidad de adoptar tecnologías actualizadas que reduzcan la exposición a vulnerabilidades. Con el fin de establecer una comparación técnica entre estos protocolos, se presenta la siguiente síntesis.
     .color___box_3
       .px-5
@@ -179,7 +179,7 @@
                 figure
                   img(src='@/assets/curso/temas/img12.svg', alt='' style="max-width: 90px").m-auto
               .col-xl
-                p.mb-0 Un aspecto relevante en la evolución reciente de la seguridad #[i WiFi] es la incorporación del mecanismo de autenticación #[b SAE] en WPA3. Este mecanismo protege la red frente a ataques de diccionario offline, una vulnerabilidad presente en implementaciones basadas en #[b WPA2-PSK], lo que incrementa significativamente la protección global del sistema inalámbrico.
+                p.mb-0 Un aspecto relevante en la evolución reciente de la seguridad Wi-Fi es la incorporación del mecanismo de autenticación #[b SAE] en WPA3. Este mecanismo protege la red frente a ataques de diccionario offline, una vulnerabilidad presente en implementaciones basadas en #[b WPA2-PSK], lo que incrementa significativamente la protección global del sistema inalámbrico.
     <!------------------------------------------ SUBTEMA 4 ------------------------------------------>
     Separador
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -277,7 +277,7 @@
               .lista-ol--cuadro__vineta
                 span 5
               | Si la autenticación es correcta, se autoriza el acceso a la red.
-    p.mb-5 El protocolo EAP permite utilizar distintos métodos de autenticación según los requerimientos de seguridad de la organización. Entre los más utilizados se encuentran los siguientes.
+    p.mb-5 El protocolo #[b EAP] permite utilizar distintos métodos de autenticación según los requerimientos de seguridad de la organización. Entre los más utilizados se encuentran los siguientes.
     .color___box_3
       .px-5
         .row.justify-content-center.mb-5
@@ -552,7 +552,7 @@
                 li.mb-1
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | #[b Red de invitados]. Acceso limitado a #[i internet].
+                  | #[b Red de invitados]. Acceso limitado a internet.
                 li.mb-0
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
@@ -625,7 +625,7 @@
                 span Ataque de desautenticación en redes inalámbricas y expulsión del usuario de la conexión
               figure.mb-3
                 img(src='@/assets/curso/temas/img237.svg', alt='Diagrama de ataque de desautenticación que integra envío de paquetes falsos, desconexión de clientes y reconexión forzada a la red. ').m-auto
-    p.mb-5 Para reducir el impacto de estas amenazas se pueden implementar diversas medidas de mitigación.
+    p.mb-5 Para reducir el impacto de estas amenazas, se pueden implementar diversas medidas de mitigación.
     .fondo___carrusel
       .px-5
         .row.align-items-center.mb-5

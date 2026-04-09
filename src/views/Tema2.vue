@@ -24,12 +24,12 @@
             p.mb-3 Ofrece alcance aproximado de 10 m y baja velocidad de transmisión. Se utiliza principalmente en la interconexión de dispositivos personales como auriculares, teclados y teléfonos móviles. Presenta bajo consumo energético.
           .row(titulo="<em>Zigbee</em>").ajuste-cajaAcordion
             p.mb-3 Permite alcances cercanos a 100 m con baja velocidad de transmisión. Está orientada a aplicaciones de automatización y domótica, con consumo energético reducido.
-          .row(titulo="<em>WiFi</em>").ajuste-cajaAcordion
+          .row(titulo="Wi-Fi").ajuste-cajaAcordion
             p.mb-3 Proporciona alcances cercanos a 100 m y altas velocidades de transmisión. Se emplea en redes locales empresariales, educativas y domésticas para transporte de grandes volúmenes de datos.
     .row.align-items-center.mb-5
       .col-xl
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="fade-right")
-          .row(titulo="LoRa").ajuste-cajaAcordion
+          .row(titulo="<em>LoRa</em>").ajuste-cajaAcordion
             p.mb-3 Permite comunicaciones a varios kilómetros con muy baja velocidad. Está diseñada para aplicaciones de #[i Internet of Things (IoT)] y dispositivos alimentados por batería.
           .row(titulo="5G").ajuste-cajaAcordion
             p.mb-3 Ofrece cobertura de varios kilómetros y velocidades muy altas. Se utiliza en redes móviles de nueva generación y servicios de banda ancha inalámbrica.
@@ -56,7 +56,7 @@
                   .col-8
                     img(src='@/assets/curso/temas/img102.svg' style="max-width: 90px").m-auto
                 h4.mb-3.estilo-text Volumen de datos
-                p.mb-0.text-center Tecnologías de alta capacidad como #[i WiFi] son adecuadas para tráfico intensivo.
+                p.mb-0.text-center Tecnologías de alta capacidad como Wi-Fi son adecuadas para tráfico intensivo.
               .tarjeta.color-acento-botones.p-4
                 .row.justify-content-center.mb-3
                   .col-8
@@ -80,7 +80,7 @@
                   .col-8
                     img(src='@/assets/curso/temas/img106.svg' style="max-width: 90px").m-auto
                 h4.mb-3.estilo-text Consumo energético
-                p.mb-0.text-center Tecnologías como #[i LoRa] o #[i Zigbee] optimizan duración de baterías.
+                p.mb-0.text-center Tecnologías como #[i LoRa] o #[i Zigbee] optimizan la duración de baterías.
         .color___box_2.mb-0(data-aos="flip-up")
           .px-5
             .row.align-items-center.justify-content-center.p-3
@@ -88,7 +88,7 @@
                 figure
                   img(src='@/assets/curso/temas/img12.svg', alt='' style="max-width: 90px").m-auto
               .col-xl
-                p.mb-0 Por ejemplo, #[i WiFi] resulta apropiada para transmisión continua de grandes volúmenes de datos, mientras que tecnologías como #[i LoRa] y #[i Zigbee] se orientan a comunicaciones esporádicas de baja velocidad en dispositivos con requerimientos de eficiencia energética.
+                p.mb-0 Por ejemplo, Wi-Fi resulta apropiada para transmisión continua de grandes volúmenes de datos, mientras que tecnologías como #[i LoRa] y #[i Zigbee] se orientan a comunicaciones esporádicas de baja velocidad en dispositivos con requerimientos de eficiencia energética.
     <!------------------------------------------ SUBTEMA 1 ------------------------------------------>
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -98,9 +98,9 @@
       h5 Figura 1.
       span Evolución de tecnologías inalámbricas
     figure.ocultar__img_md(data-aos="zoom-in")
-      img(src='@/assets/curso/temas/img107.svg', alt='Diagrama  sobre la evolución de tecnologías inalámbricas que incluye las generaciones 1G, 2G, 3G, 4G y 5G, junto con WiFi 6 y WiFi 6E, con notas breves sobre transmisión analógica de voz, digitalización de la comunicación, introducción de datos móviles, aumento de velocidad y conectividad basada en IP, baja latencia con alta densidad de dispositivos y mayor eficiencia espectral del WiFi.').m-auto
+      img(src='@/assets/curso/temas/img107.svg', alt='Diagrama  sobre la evolución de tecnologías inalámbricas que incluye las generaciones 1G, 2G, 3G, 4G y 5G, junto con Wi-Fi 6 y Wi-Fi 6E, con notas breves sobre transmisión analógica de voz, digitalización de la comunicación, introducción de datos móviles, aumento de velocidad y conectividad basada en IP, baja latencia con alta densidad de dispositivos y mayor eficiencia espectral del Wi-Fi.').m-auto
     figure.ocultar__img_lg(data-aos="zoom-in").mb-5
-      img(src='@/assets/curso/temas/img108.svg', alt='Diagrama  sobre la evolución de tecnologías inalámbricas que incluye las generaciones 1G, 2G, 3G, 4G y 5G, junto con WiFi 6 y WiFi 6E, con notas breves sobre transmisión analógica de voz, digitalización de la comunicación, introducción de datos móviles, aumento de velocidad y conectividad basada en IP, baja latencia con alta densidad de dispositivos y mayor eficiencia espectral del WiFi.').m-auto
+      img(src='@/assets/curso/temas/img108.svg', alt='Diagrama  sobre la evolución de tecnologías inalámbricas que incluye las generaciones 1G, 2G, 3G, 4G y 5G, junto con Wi-Fi 6 y Wi-Fi 6E, con notas breves sobre transmisión analógica de voz, digitalización de la comunicación, introducción de datos móviles, aumento de velocidad y conectividad basada en IP, baja latencia con alta densidad de dispositivos y mayor eficiencia espectral del Wi-Fi.').m-auto
     .color___box_2.mb-0(data-aos="flip-up")
       .px-5
         .row.align-items-center.justify-content-center.p-3
@@ -142,10 +142,10 @@
           img(src="@/assets/curso/temas/img111.png", alt="" ).m-auto
       .col-xl
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="fade-left")
-          .row(titulo="<em>WiFi</em>").ajuste-cajaAcordion
-            p.mb-3 Es la tecnología más utilizada en redes locales inalámbricas y opera bajo los estándares #[b IEEE 802.11]. Funciona en las bandas de #[b 2.4 GHz, 5 GHz y 6 GHz], soporta altas velocidades de transmisión y permite múltiples usuarios simultáneos. Implementa técnicas como #[b MIMO y OFDMA] para optimizar la eficiencia espectral. Se utiliza en redes empresariales, instituciones educativas, hogares y espacios públicos. La correcta configuración de redes #[i WiFi] implica definir parámetros como canal, ancho de banda, potencia de transmisión y tipo de cifrado.
+          .row(titulo="Wi-Fi").ajuste-cajaAcordion
+            p.mb-3 Es la tecnología más utilizada en redes locales inalámbricas y opera bajo los estándares #[b IEEE 802.11]. Funciona en las bandas de #[b 2.4 GHz, 5 GHz y 6 GHz], soporta altas velocidades de transmisión y permite múltiples usuarios simultáneos. Implementa técnicas como #[b MIMO y OFDMA] para optimizar la eficiencia espectral. Se utiliza en redes empresariales, instituciones educativas, hogares y espacios públicos. La correcta configuración de redes Wi-Fi implica definir parámetros como canal, ancho de banda, potencia de transmisión y tipo de cifrado.
           .row(titulo="<em>WiMAX (Worldwide Interoperability for Microwave Access)</em>").ajuste-cajaAcordion
-            p.mb-3 Tecnología diseñada para proporcionar cobertura inalámbrica a escala metropolitana. Presenta mayor alcance que #[i WiFi] y se emplea en entornos rurales o zonas donde no existe infraestructura cableada. Opera generalmente en bandas licenciadas. Aunque su uso ha disminuido frente a tecnologías móviles más avanzadas, continúa siendo relevante en ciertos escenarios de conectividad.
+            p.mb-3 Tecnología diseñada para proporcionar cobertura inalámbrica a escala metropolitana. Presenta mayor alcance que Wi-Fi y se emplea en entornos rurales o zonas donde no existe infraestructura cableada. Opera generalmente en bandas licenciadas. Aunque su uso ha disminuido frente a tecnologías móviles más avanzadas, continúa siendo relevante en ciertos escenarios de conectividad.
     <!------------------------------------------ SUBTEMA 4 ------------------------------------------>
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -168,7 +168,7 @@
                 img(src='@/assets/curso/temas/img112.jpg', alt='').m-auto
             .col-xl
               p.mb-0 El Internet de las Cosas (#[i Internet of Things - IoT]) requiere tecnologías inalámbricas diseñadas específicamente para la comunicación entre dispositivos de bajo consumo energético, la transmisión de pequeñas cantidades de datos y la operación prolongada mediante baterías.
-        p.mb-4.mb-lg-0 A diferencia de las redes #[i WiFi] o móviles tradicionales, las tecnologías #[i IoT] priorizan la eficiencia energética, la cobertura extendida y la escalabilidad. Estas tecnologías permiten la interconexión de sensores, actuadores y dispositivos inteligentes en sectores como agricultura, industria, salud, logística y ciudades inteligentes. A continuación se presentan algunas de las principales tecnologías utilizadas en redes #[i IoT].
+        p.mb-4.mb-lg-0 A diferencia de las redes Wi-Fi o móviles tradicionales, las tecnologías #[i IoT] priorizan la eficiencia energética, la cobertura extendida y la escalabilidad. Estas tecnologías permiten la interconexión de sensores, actuadores y dispositivos inteligentes en sectores como agricultura, industria, salud, logística y ciudades inteligentes. A continuación se presentan algunas de las principales tecnologías utilizadas en redes #[i IoT].
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/img113.png', alt='').m-auto
@@ -201,7 +201,7 @@
                   figure.mb-4
                     img(src='@/assets/curso/temas/img115.png', alt="" ).m-auto
                 h4.text-center  Volumen de datos
-                p.mb-0.text-center Bajo, debido a transmisión periódica de mediciones.
+                p.mb-0.text-center Bajó, debido a transmisión periódica de mediciones.
           .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
             .box___style_5.h-100
               .row.justify-content-center.mb-3

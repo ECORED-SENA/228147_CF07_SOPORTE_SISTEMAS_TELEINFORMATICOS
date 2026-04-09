@@ -38,7 +38,7 @@
                   img(src='@/assets/curso/temas/img294.png', alt='' style="max-width: 500px").m-auto
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
-                h4 #[i Site survey]y evaluación del entorno
+                h4 #[i Site survey] y evaluación del entorno
                 p.mb-0 Se realiza un estudio técnico del entorno físico para identificar obstáculos estructurales, interferencias existentes, densidad de dispositivos y distribución espacial de usuarios. El resultado permite ajustar el diseño inicial.
               .col-xl-6
                 figure
@@ -241,7 +241,7 @@
                   figure.mb-4
                     img(src='@/assets/curso/temas/img311.png', alt="" ).m-auto
                 h4.text-center #[i NetSpot]
-                p.mb-0.text-center Evaluación de redes #[i WiFi].
+                p.mb-0.text-center Evaluación de redes Wi-Fi.
           .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
             .box___style_5.h-100
               .row.justify-content-center.mb-3
@@ -256,7 +256,7 @@
                 .col-12
                   figure.mb-4
                     img(src='@/assets/curso/temas/img313.png', alt="" ).m-auto
-                h4.text-center #[i Acrylic WiFi]
+                h4.text-center #[i Acrylic] Wi-Fi
                 p.mb-0.text-center Medición de señal e interferencias.
         .color___box_2.fit___color_box_2.mb-5(data-aos="flip-up")
           .px-5
@@ -271,7 +271,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-xl.mb-4.mb-lg-0(data-aos="fade-right")
         .box___style_19
-          p Se considera la implementación de una red inalámbrica en un edificio de oficinas con una superficie aproximada de 900 m². Durante el estudio de sitio se realizan mediciones obteniendo los siguientes resultados.
+          p Se considera la implementación de una red inalámbrica en un edificio de oficinas con una superficie aproximada de 900 m². Durante el estudio de sitio se realizan mediciones, obteniendo los siguientes resultados.
           ul.fa-ul.estilo___ul.mb-0
             li.mb-1
               span.fa-li

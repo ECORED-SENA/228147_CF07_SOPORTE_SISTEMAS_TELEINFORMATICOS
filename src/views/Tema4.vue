@@ -103,13 +103,13 @@
       .col-xl
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="fade-left")
           .row(titulo="802.11a / 802.11b / 802.11g").ajuste-cajaAcordion
-            p.mb-3 Corresponden a las primeras generaciones de redes #[i WiFi] que permitieron la expansión de la conectividad inalámbrica. 802.11b opera en la banda de 2.4 GHz con velocidades de hasta 11 Mbps, ofreciendo mayor alcance pero mayor susceptibilidad a interferencias. 802.11a funciona en 5 GHz con velocidades de hasta 54 Mbps, presentando menor interferencia pero menor cobertura. 802.11g combina características de ambos estándares al operar en 2.4 GHz con velocidades de hasta 54 Mbps, mejorando el rendimiento sin perder compatibilidad con dispositivos anteriores.
+            p.mb-3 Corresponden a las primeras generaciones de redes Wi-Fi que permitieron la expansión de la conectividad inalámbrica. 802.11b opera en la banda de 2.4 GHz con velocidades de hasta 11 Mbps, ofreciendo mayor alcance, pero mayor susceptibilidad a interferencias. 802.11a funciona en 5 GHz con velocidades de hasta 54 Mbps, presentando menor interferencia pero menor cobertura. 802.11g combina características de ambos estándares al operar en 2.4 GHz con velocidades de hasta 54 Mbps, mejorando el rendimiento sin perder compatibilidad con dispositivos anteriores.
           .row(titulo="802.11n").ajuste-cajaAcordion
-            p.mb-3 Introdujo la tecnología MIMO (#[i Multiple Input Multiple Output]), que permite utilizar múltiples antenas para transmitir y recibir datos simultáneamente. Opera en las bandas de 2.4 GHz y 5 GHz y puede alcanzar velocidades teóricas superiores a 600 Mbps. Además incorporó canales de 40 MHz, aumentando el ancho de banda disponible y mejorando la cobertura y estabilidad de la red.
-          .row(titulo="802.11ac (<em>WiFi</em> 5)").ajuste-cajaAcordion
+            p.mb-3 Introdujo la tecnología MIMO (#[i Multiple Input Multiple Output]), que permite utilizar múltiples antenas para transmitir y recibir datos simultáneamente. Opera en las bandas de 2.4 GHz y 5 GHz y puede alcanzar velocidades teóricas superiores a 600 Mbps. Además, incorporó canales de 40 MHz, aumentando el ancho de banda disponible y mejorando la cobertura y estabilidad de la red.
+          .row(titulo="802.11ac (Wi-Fi 5)").ajuste-cajaAcordion
             p.mb-3 Diseñado para soportar mayores velocidades de transmisión en la banda de 5 GHz, superando 1 Gbps en configuraciones avanzadas. Incorpora mejoras como canales de 80 MHz y 160 MHz, modulación 256-QAM y la técnica de beamforming, que dirige la señal hacia dispositivos específicos para optimizar el rendimiento.
-          .row(titulo="802.11ax (<em>WiFi</em>  6)").ajuste-cajaAcordion
-            p.mb-3 Optimiza el rendimiento en entornos con alta densidad de dispositivos conectados. Opera en 2.4 GHz y 5 GHz, y en 6 GHz en su extensión #[i WiFi] 6E. Introduce tecnologías como OFDMA (#[i Orthogonal Frequency Division Multiple Access]), que divide el canal en subcanales para atender múltiples dispositivos simultáneamente, reduciendo latencia y mejorando la eficiencia del espectro.
+          .row(titulo="802.11ax (Wi-Fi  6)").ajuste-cajaAcordion
+            p.mb-3 Optimiza el rendimiento en entornos con alta densidad de dispositivos conectados. Opera en 2.4 GHz y 5 GHz, y en 6 GHz en su extensión Wi-Fi 6E. Introduce tecnologías como OFDMA (#[i Orthogonal Frequency Division Multiple Access]), que divide el canal en subcanales para atender múltiples dispositivos simultáneamente, reduciendo latencia y mejorando la eficiencia del espectro.
     .color___box_2.mb-5(data-aos="flip-up")
       .px-5
         .row.align-items-center.justify-content-center.p-3
@@ -119,7 +119,7 @@
           .col-xl
             p.mb-0 Estos estándares constituyen la base tecnológica de las redes inalámbricas modernas y permiten adaptar la infraestructura a diferentes escenarios de conectividad.
     .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
-      h4.mb-0 Comparación de estándares #[i WiFi]
+      h4.mb-0 Comparación de estándares Wi-Fi
     .color___box_3
       .px-5
         p.mb-5 Para facilitar la evaluación técnica de las tecnologías más utilizadas actualmente, se presenta una comparación de algunos estándares relevantes de la familia IEEE 802.11.
@@ -221,7 +221,7 @@
         .col-xl.order-2.order-lg-1
           p.mb-2.fit___p_box Las técnicas de modulación determinan cuántos bits pueden transmitirse por símbolo de señal. La relación se expresa mediante la ecuación:
           p.mb-2.box___style_9.fit___p_box.fit___box_9 R = Blog<span class="fit__text-small">2</span> (M)
-          p.mb-2.fit___p_box Donde:
+          p.mb-2.fit___p_box Dónde:
           ul.fa-ul.estilo___ul.mb-2
             li.mb-1.d-flex
               span.fa-li
@@ -237,7 +237,7 @@
               | M = número de niveles de modulación.
           p.mb-2.fit___p_box Ejemplo:
           p.mb-2.fit___p_box Para una modulación 64-QAM:
-          p.mb-2.box___style_9.fit___p_box.fit___box_9 log<span class="fit__text-small">2</span> (64)=6
+          p.mb-2.box___style_9.fit___p_box.fit___box_9 log<span class="fit__text-small">2</span> (64) = 6
           p.mb-0.fit___p_box Esto significa que cada símbolo transmite #[b 6 bits de información.]
           p.mb-0.fit___p_box Las modulaciones más avanzadas permiten mayores velocidades, pero requieren mayor calidad de señal.
         .col-xl-auto.order-1.order-lg-2
@@ -382,7 +382,7 @@
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
-                h4 Uso del estándar #[i WiFi] 6 (802.11ax)
+                h4 Uso del estándar Wi-Fi 6 (802.11ax)
                 p.mb-0 Permite gestionar mayor cantidad de usuarios simultáneos y optimiza la eficiencia espectral mediante tecnologías como OFDMA y MU-MIMO.
               .col-xl-6
                 figure

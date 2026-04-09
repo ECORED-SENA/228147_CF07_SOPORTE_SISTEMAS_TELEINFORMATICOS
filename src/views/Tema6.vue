@@ -8,7 +8,7 @@
       h1 Internet de las Cosas (#[i IoT]) y redes inalámbricas
     .row.align-items-center.justify-content-center.mb-5
       .col-xl.mb-4.mb-lg-0
-        p El #[i internet] de las cosas (#[i Internet of Things, IoT]) constituye un modelo tecnológico que permite la interconexión de objetos físicos mediante redes inalámbricas y sistemas digitales. Esta integración posibilita la recopilación, transmisión y análisis de datos en tiempo real, lo cual favorece la optimización de procesos, la automatización de operaciones y el fortalecimiento de la toma de decisiones en diferentes entornos organizacionales.
+        p El Internet de las cosas (#[i Internet of Things, IoT]) constituye un modelo tecnológico que permite la interconexión de objetos físicos mediante redes inalámbricas y sistemas digitales. Esta integración posibilita la recopilación, transmisión y análisis de datos en tiempo real, lo cual favorece la optimización de procesos, la automatización de operaciones y el fortalecimiento de la toma de decisiones en diferentes entornos organizacionales.
         .box___style_3.fit___box_3-2.mb-3(data-aos="zoom-in")
           p.mb-0 Los dispositivos #[i IoT] incluyen sensores, actuadores, equipos industriales y sistemas inteligentes capaces de comunicarse entre sí sin intervención humana directa. En este contexto, las redes inalámbricas representan el principal medio de comunicación debido a su flexibilidad, escalabilidad y facilidad de despliegue. La adecuada definición de parámetros de red resulta fundamental para garantizar conectividad estable, bajo consumo energético y seguridad en la transmisión de la información.
       .col-xl-auto.col-md-9(data-aos="fade-left")
@@ -63,7 +63,7 @@
         .box___style_3.fit___box_3.mb-3(data-aos="zoom-in")
           figure.mb-3
             img(src='@/assets/curso/temas/img330.svg', alt='' style="max-width: 90px")
-          p.mb-0 El ecosistema #[i IoT] está integrado por diversos dispositivos interconectados que operan de manera coordinada para capturar información, procesarla y ejecutar acciones automáticas. Entre los componentes más relevantes se encuentran los sensores, los actuadores, los microcontroladores y los dispositivos gateway, cada uno con funciones específicas dentro del sistema tecnológico.
+          p.mb-0 El ecosistema #[i IoT] está integrado por diversos dispositivos interconectados que operan de manera coordinada para capturar información, procesarla y ejecutar acciones automáticas. Entre los componentes más relevantes se encuentran los sensores, los actuadores, los microcontroladores y los dispositivos #[i gateway], cada uno con funciones específicas dentro del sistema tecnológico.
         p.mb-0 Los componentes del ecosistema #[i IoT] cumplen funciones específicas dentro del sistema tecnológico.
     .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -267,7 +267,7 @@
               .box___style_18
                 p.mb-0.line--bottom Capacidad de bateria
                 p.mb-0 Consumo promedio
-          p Donde:
+          p Dónde:
           ul.fa-ul.estilo___ul.mb-0
             li.mb-0
               span.fa-li
@@ -489,7 +489,7 @@
                 li.mb-1
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | Plataforma en la nube	Almacenamiento y procesamiento de información.
+                  | #[b Plataforma en la nube].	Almacenamiento y procesamiento de información.
                 li.mb-0
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
@@ -532,7 +532,7 @@
                 img(src='@/assets/curso/temas/img12.svg', alt='' style="max-width: 90px").m-auto
             .col-xl
               p #[b Se reconoce que el flujo típico de operación puede estructurarse de la siguiente manera:]
-              p Sensor → gateway → broker MQTT → plataforma en la nube → panel de control → acción automatizada.
+              p Sensor → #[i gateway] → #[i broker] MQTT → plataforma en la nube → panel de control → acción automatizada.
               p.mb-0 Finalmente, la selección del protocolo depende de factores técnicos como consumo energético, latencia requerida, volumen de datos y nivel de seguridad necesario.
 </template>
 

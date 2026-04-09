@@ -8,7 +8,7 @@
       h1 Fundamentos de las redes inalámbricas
     .row.align-items-center.justify-content-center
       .col-xl
-        p La comunicación inalámbrica no surge con el #[i WiFi] moderno. Sus bases se encuentran en los experimentos de transmisión electromagnética desarrollados a finales del siglo XIX. El desarrollo de la radiofrecuencia permitió transmitir señales sin utilizar medios físicos, lo que posteriormente dio origen a sistemas de radiocomunicación, telefonía móvil y redes de datos inalámbricas.
+        p La comunicación inalámbrica no surge con el Wi-Fi moderno. Sus bases se encuentran en los experimentos de transmisión electromagnética desarrollados a finales del siglo XIX. El desarrollo de la radiofrecuencia permitió transmitir señales sin utilizar medios físicos, lo que posteriormente dio origen a sistemas de radiocomunicación, telefonía móvil y redes de datos inalámbricas.
         .box___style_2.mb-3(data-aos="zoom-in")
           .row.align-items-center
             .col-xl-auto
@@ -16,7 +16,7 @@
                 img(src='@/assets/curso/temas/img1.jpg', alt='').m-auto
             .col-xl
               p.mb-0 Con el avance de la informática y el aumento de la necesidad de movilidad, surgieron los primeros estándares #[b IEEE 802.11] en 1997. Desde entonces, la evolución tecnológica ha incrementado las velocidades de transmisión, ha mejorado la eficiencia espectral y ha fortalecido los mecanismos de seguridad.
-        p.mb-4.mb-lg-0 Actualmente, las redes inalámbricas no solo transportan datos. También soportan servicios críticos como la videoconferencia, la automatización industrial, la telemedicina y el #[b #[i Internet] de las Cosas (#[i Internet of Things - IoT])], lo que demuestra su papel central en las infraestructuras tecnológicas contemporáneas.
+        p.mb-4.mb-lg-0 Actualmente, las redes inalámbricas no solo transportan datos. También soportan servicios críticos como la videoconferencia, la automatización industrial, la telemedicina y el #[b Internet de las Cosas (#[i Internet of Things - IoT])], lo que demuestra su papel central en las infraestructuras tecnológicas contemporáneas.
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/img2.png', alt='').m-auto
@@ -111,7 +111,7 @@
                   .col-12
                     img(src='@/assets/curso/temas/img15.png').m-auto
                 h4.mb-3.estilo-text Ancho de canal
-                p.mb-0.text-center Permite mayor tasa de transmisión.
+                p.mb-0.text-center Permite una mayor tasa de transmisión.
               .tarjeta.color-acento-botones.fit___card-sinbordes
                 .row.justify-content-center.mb-4
                   .col-12
@@ -205,7 +205,7 @@
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left Pérdida de paquetes
                     td.texto-left < 1 %. Transmisión confiable
-            p.mb-5 Estos valores son analizados mediante herramientas como #[i WiFi Analyzer, Ekahau] y #[i NetSpot].
+            p.mb-5 Estos valores son analizados mediante herramientas como #[i Wi-Fi Analyzer, Ekahau] y #[i NetSpot].
     .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
         figure
@@ -236,7 +236,7 @@
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left VoIP
                     td.texto-left ≥ -65 dBm y ≥ 30 dB
-            p.mb-0 Si los valores se encuentran por debajo de estos rangos pueden presentarse retransmisiones, pérdida de paquetes y disminución de la velocidad de transmisión, lo que orienta decisiones como instalar nuevos puntos de acceso o ajustar la potencia.
+            p.mb-0 Si los valores se encuentran por debajo de estos rangos, pueden presentarse retransmisiones, pérdida de paquetes y disminución de la velocidad de transmisión, lo que orienta decisiones como instalar nuevos puntos de acceso o ajustar la potencia.
         <!------------------------------------------ SUBTEMA 2 ------------------------------------------>
         Separador
         #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -246,7 +246,7 @@
         .box___style_1.mb-3(data-aos="fade-right")
           p.mb-0 Una red inalámbrica es una infraestructura de comunicación que permite el intercambio de datos entre dispositivos mediante señales de radiofrecuencia. A diferencia de las redes cableadas, en las que la transmisión ocurre a través de conductores físicos, en las redes inalámbricas el medio de propagación es el aire.
         p Estas redes poseen características que facilitan su implementación en diversos entornos tecnológicos. Entre las más relevantes se encuentran la movilidad de los usuarios, la flexibilidad de instalación, la escalabilidad y la reducción de costos asociados a la infraestructura física.
-        p.mb-4.mb-lg-0 Para comprender su funcionamiento es necesario considerar varios parámetros técnicos que determinan el desempeño de la red. A continuación se sintetizan los principales elementos que intervienen en la definición de una red inalámbrica.
+        p.mb-4.mb-lg-0 Para comprender su funcionamiento, es necesario considerar varios parámetros técnicos que determinan el desempeño de la red. A continuación se sintetizan los principales elementos que intervienen en la definición de una red inalámbrica.
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/img19.png', alt='').m-auto
@@ -416,7 +416,7 @@
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left WLAN
                     td.ajuste-border-tabla.texto-left 30 - 100 m
-                    td.ajuste-border-tabla.texto-left #[i WiFi]
+                    td.ajuste-border-tabla.texto-left Wi-Fi
                     td.texto-left Redes empresariales
                   tr
                     td.ajuste-border-tabla.texto-left WMAN
@@ -437,14 +437,14 @@
         h3 Caso de aplicación técnica
     .row.align-items-center.justify-content-center
       .col-xl
-        p Considérese la implementación de una red inalámbrica en un aula universitaria con aproximadamente #[b 40 estudiantes conectados simultáneamente]. Para garantizar un funcionamiento adecuado es necesario considerar parámetros técnicos relacionados tanto con la cobertura como con la capacidad de la red.
+        p Considérese la implementación de una red inalámbrica en un aula universitaria con aproximadamente #[b 40 estudiantes conectados simultáneamente]. Para garantizar un funcionamiento adecuado, es necesario considerar parámetros técnicos relacionados tanto con la cobertura como con la capacidad de la red.
         .box___style_2.mb-3(data-aos="zoom-in")
           .row.align-items-center
             .col-xl-auto
               figure
                 img(src='@/assets/curso/temas/img30.jpg', alt='').m-auto
             .col-xl
-              p.mb-0 Entre los aspectos más relevantes se encuentran el uso del estándar #[b #[i WiFi] 6 (802.11ax)], la configuración de anchos de canal de #[b 20 o 40 MHz] para reducir interferencias, la disponibilidad de un #[i Access Point] con capacidad suficiente para múltiples clientes y la planificación adecuada de canales para evitar solapamientos.
+              p.mb-0 Entre los aspectos más relevantes se encuentran el uso del estándar #[b Wi-Fi 6 (802.11ax)], la configuración de anchos de canal de #[b 20 o 40 MHz] para reducir interferencias, la disponibilidad de un #[i Access Point] con capacidad suficiente para múltiples clientes y la planificación adecuada de canales para evitar solapamientos.
         p.mb-4.mb-lg-0 En este escenario, la capacidad del punto de acceso adquiere una importancia equivalente a la cobertura. Una planificación deficiente puede generar saturación de la red incluso cuando los niveles de señal son adecuados.
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
@@ -760,7 +760,7 @@
               img(src='@/assets/curso/temas/img55.png', alt="" ).m-auto
           .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
             h4.txt--purpura.mb-4 SHF
-            p.mb-0 Rango de 3 a 30 GHz. Aplicado en redes #[i WiFi], enlaces de microondas y sistemas de radar.
+            p.mb-0 Rango de 3 a 30 GHz. Aplicado en redes Wi-Fi, enlaces de microondas y sistemas de radar.
     .color___box_3
       .px-5
         p.mb-5 El uso compartido del espectro en bandas de libre utilización implica la coexistencia de múltiples dispositivos, lo que puede generar interferencias si no se realiza una adecuada planificación técnica.
@@ -772,7 +772,7 @@
                   figure.mb-4
                     img(src='@/assets/curso/temas/img56.png', alt="" ).m-auto
                 h4.text-center 2.4 GHz
-                p.mb-0.text-center Redes #[i WiFi] y tecnologías como #[i Bluetooth].
+                p.mb-0.text-center Redes Wi-Fi y tecnologías como #[i Bluetooth].
           .col-xl-4.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
             .box___style_5.h-100
               .row.justify-content-center.mb-3
@@ -780,7 +780,7 @@
                   figure.mb-4
                     img(src='@/assets/curso/temas/img57.png', alt="" ).m-auto
                 h4.text-center 5 GHz
-                p.mb-0.text-center Redes #[i WiFi] de mayor velocidad y menor interferencia.
+                p.mb-0.text-center Redes Wi-Fi de mayor velocidad y menor interferencia.
           .col-xl-4.col-md-9(data-aos="fade-left")
             .box___style_5.h-100
               .row.justify-content-center.mb-3
@@ -788,7 +788,7 @@
                   figure.mb-4
                     img(src='@/assets/curso/temas/img58.png', alt="" ).m-auto
                 h4.text-center 6 GHz
-                p.mb-0.text-center Redes #[i WiFi] basadas en estándares recientes como #[i WiFi] 6E.
+                p.mb-0.text-center Redes Wi-Fi basadas en estándares recientes como Wi-Fi 6E.
     .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
         figure
@@ -1067,13 +1067,13 @@
                 .col-xl.col-md-10
                   h4 Tipos de interferencia
                   p.mb-0 Interferencia co-canal, interferencia de canal adyacente e interferencia electromagnética externa.
-        p.mb-5 La identificación de estos factores es fundamental en procesos de #[i Site Survey] y evaluación técnica de red.
-    .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
-      .col-lg-auto
-        figure
-          img(src="@/assets/curso/temas/img4.svg" style="max-width: 60px").m-auto
-      .col
-        h3 Pérdida por espacio libre (#[i Free Space Path Loss])
+        p.mb-5 La identificación de estos factores es fundamental en procesos de #[b #[i Site Survey]] y evaluación técnica de red.
+        .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
+          .col-lg-auto
+            figure
+              img(src="@/assets/curso/temas/img4.svg" style="max-width: 60px").m-auto
+          .col
+            h3 Pérdida por espacio libre (#[i Free Space Path Loss])
     .color___box_3
       .px-5
         p.mb-5 La pérdida por espacio libre representa la atenuación que experimenta una señal electromagnética a medida que aumenta la distancia entre el transmisor y el receptor. Este fenómeno es inherente a la propagación de las ondas de radio y constituye un parámetro esencial en el diseño de enlaces inalámbricos.
@@ -1197,7 +1197,7 @@
       .row.align-items-center
         .col-xl.order-2.order-lg-1
           p.mb-2.fit___p_box Ecuación y variables del presupuesto de enlace Expresión.
-          p.mb-2.box___style_9.fit___p_box.fit___box_9 #[b PRX] = PTX + GTX + GRX - L
+          p.mb-2.box___style_9.fit___p_box.fit___box_9 <strong>PRX</strong> = PTX + GTX + GRX - L
           ul.fa-ul.estilo___ul.mb-3.mb-lg-0
             li.mb-0
               span.fa-li
@@ -1251,7 +1251,7 @@
           .box___style_11-2
             p.mb-0.box___style_9.fit___box_10 #[i Fade Margin] = P<span class="fit__text-small">RX</span> - Sensibilidad receptor.
           .box___style_11-3
-            p.mb-0 En redes #[i WiFi] se recomienda un margen mínimo entre #[b 10 dB y 20 dB] para garantizar estabilidad ante variaciones ambientales, interferencias o cambios en las condiciones de propagación.
+            p.mb-0 En redes Wi-Fi se recomienda un margen mínimo entre #[b 10 dB y 20 dB] para garantizar estabilidad ante variaciones ambientales, interferencias o cambios en las condiciones de propagación.
         .col-xl-6.order-1.order-lg-2
           figure
             img(src='@/assets/curso/temas/img92.png', alt='').m-auto
@@ -1284,7 +1284,7 @@
                   figure.mb-4
                     img(src='@/assets/curso/temas/img95.png', alt="" ).m-auto
                 h4.text-center C
-                p.mb-0 Incremento controlado de potencia. Mejorar nivel de señal dentro de límites regulatorios.  Instalación de repetidores o puntos de acceso.
+                p.mb-0 Incremento controlado de potencia. Mejorar, nivel de señal dentro de límites regulatorios.  Instalación de repetidores o puntos de acceso.
           .col-xl-3.col-md-9(data-aos="fade-left")
             .box___style_5.h-100
               .row.justify-content-center.mb-3
