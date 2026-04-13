@@ -1284,7 +1284,7 @@
                   figure.mb-4
                     img(src='@/assets/curso/temas/img95.png', alt="" ).m-auto
                 h4.text-center C
-                p.mb-0 Incremento controlado de potencia. Mejorar, nivel de señal dentro de límites regulatorios.  Instalación de repetidores o puntos de acceso.
+                p.mb-0 Incremento controlado de potencia. Mejorar el nivel de señal dentro de límites regulatorios.  Instalación de repetidores o puntos de acceso.
           .col-xl-3.col-md-9(data-aos="fade-left")
             .box___style_5.h-100
               .row.justify-content-center.mb-3

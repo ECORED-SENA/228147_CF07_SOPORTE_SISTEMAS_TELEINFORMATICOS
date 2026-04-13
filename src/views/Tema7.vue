@@ -211,11 +211,11 @@
                 li.mb-1
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | #[b Predictivo]. Basado en planos y simulaciones.
+                  | #[b Predictivo]: basado en planos y simulaciones.
                 li.mb-1
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | #[b Activo]. Basado en mediciones reales en campo.
+                  | #[b Activo]: basado en mediciones reales en campo.
               p.mb-0 Este proceso permite optimizar la ubicación de dispositivos y minimizar zonas sin cobertura.
           .col-xl-auto.col-md-9(data-aos="fade-left")
             figure
@@ -465,17 +465,17 @@
           li.mb-0
             span.fa-li
               i.fas.fa-check-circle
-            | #[b Preventivo]. Revisión periódica para evitar fallos.
+            | #[b Preventivo]: revisión periódica para evitar fallos.
           br
           li.mb-0
             span.fa-li
               i.fas.fa-check-circle
-            | #[b Correctivo]. Reparación de fallos detectados.
+            | #[b Correctivo]: reparación de fallos detectados.
           br
           li.mb-0
             span.fa-li
               i.fas.fa-check-circle
-            | #[b Predictivo]. Análisis del rendimiento para anticipar problemas.
+            | #[b Predictivo]: análisis del rendimiento para anticipar problemas.
     p.mb-5 El mantenimiento preventivo reduce significativamente el riesgo de interrupciones en el servicio.
     .box___style_21.mb-0(data-aos="flip-up")
       .row.align-items-center

@@ -321,15 +321,15 @@
                     li.mb-1
                       span.fa-li
                         i.fas.fa-arrow-alt-circle-right
-                      | #[b Acceso administrativo]. Permisos ampliados para personal autorizado.
+                      | #[b Acceso administrativo]: permisos ampliados para personal autorizado.
                     li.mb-1
                       span.fa-li
                         i.fas.fa-arrow-alt-circle-right
-                      | #[b Acceso para invitados]. Conectividad limitada a servicios básicos.
+                      | #[b Acceso para invitados]: conectividad limitada a servicios básicos.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-arrow-alt-circle-right
-                      | #[b Acceso para dispositivos #[i IoT]]. Restricción a segmentos específicos de la red.
+                      | #[b Acceso para dispositivos #[i IoT]]: restricción a segmentos específicos de la red.
             p.mb-4.mb-lg-0 Como ejemplo práctico, una organización con múltiples usuarios puede implementar una arquitectura de autenticación centralizada que integre los distintos componentes de seguridad.
           .col-xl-auto.col-md-9(data-aos="fade-left")
             figure
@@ -548,15 +548,15 @@
                 li.mb-1
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | #[b Red administrativa]. Acceso completo a recursos corporativos.
+                  | #[b Red administrativa]: acceso completo a recursos corporativos.
                 li.mb-1
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | #[b Red de invitados]. Acceso limitado a internet.
+                  | #[b Red de invitados]: acceso limitado a internet.
                 li.mb-0
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | #[b Red para dispositivos #[i IoT]]. Acceso restringido a servicios específicos.
+                  | #[b Red para dispositivos #[i IoT]]: acceso restringido a servicios específicos.
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/img233.png', alt='').m-auto
@@ -575,23 +575,23 @@
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Protocolo de autenticación implementado]. Determina el nivel de control sobre el acceso a la red.
+              | #[b Protocolo de autenticación implementado]: determina el nivel de control sobre el acceso a la red.
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Nivel de cifrado configurado]. Define la protección de la información transmitida.
+              | #[b Nivel de cifrado configurado]: define la protección de la información transmitida.
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Existencia de control centralizado]. Facilita la administración y estandarización de políticas.
+              | #[b Existencia de control centralizado]: facilita la administración y estandarización de políticas.
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Cumplimiento de normativa vigente]. Garantiza alineación con estándares de seguridad.
+              | #[b Cumplimiento de normativa vigente]: garantiza alineación con estándares de seguridad.
             li.mb-0
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Capacidad de monitoreo y auditoría]. Permite detectar incidentes y realizar seguimiento.
+              | #[b Capacidad de monitoreo y auditoría]: permite detectar incidentes y realizar seguimiento.
         p.mb-0 La correcta implementación de estos elementos asegura que la red inalámbrica no solo funcione adecuadamente desde el punto de vista técnico, sino que también proteja la información y los activos organizacionales.
     <!------------------------------------------ SUBTEMA 7 ------------------------------------------>
     Separador
@@ -690,19 +690,19 @@
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Ubicación estratégica de puntos de acceso]. Optimizar cobertura y reducir exposición externa.
+              | #[b Ubicación estratégica de puntos de acceso]: optimizar cobertura y reducir exposición externa.
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Protección contra manipulación]. Evitar alteraciones no autorizadas de equipos.
+              | #[b Protección contra manipulación]: evitar alteraciones no autorizadas de equipos.
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Control de acceso a racks]. Restringir el contacto físico con la infraestructura.
+              | #[b Control de acceso a racks]: restringir el contacto físico con la infraestructura.
             li.mb-0
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Respaldo de configuraciones]. Facilitar la recuperación ante fallos o incidentes.
+              | #[b Respaldo de configuraciones]: facilitar la recuperación ante fallos o incidentes.
         p.mb-0 El monitoreo continuo permite detectar anomalías y prevenir incidentes de seguridad antes de que afecten la operación.
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
@@ -780,19 +780,19 @@
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b  Autenticación WPA2-Enterprise con 802.1X]. Validación individual de usuarios.
+              | #[b  Autenticación WPA2-Enterprise con 802.1X]: validación individual de usuarios.
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Servidor RADIUS integrado con directorio corporativo]. Administración centralizada de credenciales.
+              | #[b Servidor RADIUS integrado con directorio corporativo]: administración centralizada de credenciales.
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Segmentación mediante VLAN]. Aislamiento de usuarios, invitados y dispositivos #[i IoT].
+              | #[b Segmentación mediante VLAN]: aislamiento de usuarios, invitados y dispositivos #[i IoT].
             li.mb-0
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Monitoreo centralizado]. Detección temprana de incidentes.
+              | #[b Monitoreo centralizado]: detección temprana de incidentes.
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/img253.jpg', alt='').m-auto

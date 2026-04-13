@@ -79,19 +79,19 @@
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Agricultura inteligente]. Medición de humedad del suelo.
+              | #[b Agricultura inteligente]: medición de humedad del suelo.
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Monitoreo ambiental]. Control de calidad del aire.
+              | #[b Monitoreo ambiental]: control de calidad del aire.
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Control industrial]. Supervisión de variables operativas.
+              | #[b Control industrial]: supervisión de variables operativas.
             li.mb-0
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Sistemas de seguridad]. Detección de movimiento.
+              | #[b Sistemas de seguridad]: detección de movimiento.
         p.mb-0 Se establece que los sensores constituyen el punto de entrada de información en el sistema #[i IoT].
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
@@ -408,19 +408,19 @@
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Optimización de recursos]. Uso eficiente de insumos y equipos.
+              | #[b Optimización de recursos]: uso eficiente de insumos y equipos.
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Reducción de costos operativos]. Disminución de gastos de operación.
+              | #[b Reducción de costos operativos]: disminución de gastos de operación.
             li.mb-1
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Mejora de eficiencia energética]. Control del consumo de energía.
+              | #[b Mejora de eficiencia energética]: control del consumo de energía.
             li.mb-0
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
-              | #[b Automatización productiva]. Incremento de productividad.
+              | #[b Automatización productiva]: incremento de productividad.
         p.mb-0 Se establece que, desde el punto de vista técnico, la evaluación de redes IoT requiere considerar aspectos clave.
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
@@ -477,23 +477,23 @@
                 li.mb-1
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | #[b Dispositivos]. Captura de datos mediante sensores y ejecución de acciones mediante actuadores.
+                  | #[b Dispositivos]: captura de datos mediante sensores y ejecución de acciones mediante actuadores.
                 li.mb-1
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | #[b Red]. Transmisión de información mediante tecnologías inalámbricas.
+                  | #[b Red]: transmisión de información mediante tecnologías inalámbricas.
                 li.mb-1
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | #[b #[i Gateway]]. Integración y envío de datos hacia la nube.
+                  | #[b #[i Gateway]]: integración y envío de datos hacia la nube.
                 li.mb-1
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | #[b Plataforma en la nube].	Almacenamiento y procesamiento de información.
+                  | #[b Plataforma en la nube]:	almacenamiento y procesamiento de información.
                 li.mb-0
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | #[b Aplicación y análisis]. Interpretación de datos y toma de decisiones.
+                  | #[b Aplicación y análisis]: interpretación de datos y toma de decisiones.
             p.mb-0 Se establece que la comunicación entre los elementos de la arquitectura se realiza mediante protocolos específicos:
           .col-xl-auto.col-md-9(data-aos="fade-left")
             figure
