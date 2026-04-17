@@ -153,7 +153,7 @@
     p.mb-5 A continuación, se presenta un video que explica la evolución de las tecnologías móviles 3G, 4G y 5G, destacando sus características técnicas, capacidades de transmisión de datos y su impacto en el desarrollo de las redes de telecomunicaciones modernas.
     figure(data-aos="zoom-in").mb-0
       .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/PFDx2KCMdqM" title="Tecnologías móviles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption.fit___figcaption-video(data-aos="zoom-in") #[b Video]. Tecnologías móviles.
     <!------------------------------------------ SUBTEMA 5 ------------------------------------------>
     Separador
