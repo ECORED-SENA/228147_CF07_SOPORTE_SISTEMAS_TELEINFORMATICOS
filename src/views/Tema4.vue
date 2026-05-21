@@ -305,7 +305,7 @@
                   figure.mb-4(data-aos="fade-right")
                     img(src='@/assets/curso/temas/img139.svg', alt="" style="max-width: 90px").m-auto
                 h4.text-center Interferencia co-canal
-                p.mb-0 Ocurre cuando dos #[i Access Point] utilizan el mismo canal dentro de áreas de cobertura que se superponen.
+                p.mb-0 Ocurre cuando dos #[i access point] utilizan el mismo canal dentro de áreas de cobertura que se superponen.
           .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
             .box___style_4.h-100
               .row.justify-content-center.mb-3
@@ -328,7 +328,7 @@
                 .col-7
                   figure.mb-4(data-aos="fade-left")
                     img(src='@/assets/curso/temas/img142.svg', alt="" style="max-width: 90px").m-auto
-                h4.text-center Capacidad por #[i Access Point]
+                h4.text-center Capacidad por #[i access point]
                 p.mb-0 Depende del estándar utilizado (802.11n, 802.11ac o 802.11ax), del ancho de banda configurado y de la cantidad de usuarios conectados.
         .color___box_2.fit___color_box_2.mb-5(data-aos="flip-up")
           .px-5
@@ -389,7 +389,7 @@
                   img(src='@/assets/curso/temas/img173.png', alt='' style="max-width: 500px").m-auto
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
-                h4 Distribución de múltiples #[i Access Point]
+                h4 Distribución de múltiples #[i access point]
                 p.mb-0 Facilita una cobertura uniforme y reduce la concentración excesiva de usuarios sobre un solo dispositivo.
               .col-xl-6
                 figure

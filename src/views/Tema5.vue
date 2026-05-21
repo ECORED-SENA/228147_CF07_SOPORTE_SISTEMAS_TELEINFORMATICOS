@@ -668,7 +668,7 @@
                 .row.justify-content-center.mb-4
                   .col-12
                     img(src='@/assets/curso/temas/img244.png').m-auto
-                h4.mb-3.estilo-text Actualizar #[i firmware] perperiódicamente
+                h4.mb-3.estilo-text Actualizar #[i firmware] periódicamente
                 p.mb-0.text-center Corregir fallos de seguridad conocidos.
         .color___box_2(data-aos="flip-up")
           .px-5

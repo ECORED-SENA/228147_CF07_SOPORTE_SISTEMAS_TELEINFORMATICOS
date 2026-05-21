@@ -247,7 +247,7 @@
           p.mb-0.fit___p_box Este cálculo permite verificar que el sistema cumpla con los límites regulatorios establecidos por las autoridades de telecomunicaciones.
     .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
       h4.mb-0 Ejemplo técnico de cálculo de EIRP
-    p.mb-5 Supongamos en un sistema inalámbrico con las siguientes características:
+    p.mb-5 Supongamos un sistema inalámbrico con las siguientes características:
     .box___style_8.fit___box_8.mb-5(data-aos="zoom-in")
       .row.align-items-center
         .col-xl.order-2.order-lg-1

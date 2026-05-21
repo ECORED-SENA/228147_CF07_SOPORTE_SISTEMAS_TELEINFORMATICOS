@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
-      h1 Internet de las Cosas (#[i IoT]) y redes inalámbricas
+      h1 Internet de las cosas (#[i IoT]) y redes inalámbricas
     .row.align-items-center.justify-content-center.mb-5
       .col-xl.mb-4.mb-lg-0
         p El Internet de las cosas (#[i Internet of Things, IoT]) constituye un modelo tecnológico que permite la interconexión de objetos físicos mediante redes inalámbricas y sistemas digitales. Esta integración posibilita la recopilación, transmisión y análisis de datos en tiempo real, lo cual favorece la optimización de procesos, la automatización de operaciones y el fortalecimiento de la toma de decisiones en diferentes entornos organizacionales.
@@ -215,7 +215,7 @@
                 figure
                   img(src='@/assets/curso/temas/img12.svg', alt='' style="max-width: 90px").m-auto
               .col-xl
-                p.mb-0 Se reconoce que puede operar mediante tecnologías como #[i WiFi], Ethernet o redes #[i Low Power Wide Area Network (LPWAN)], incluyendo protocolos como #[i LoRa].
+                p.mb-0 Se reconoce que puede operar mediante tecnologías como #[i Wi-Fi], Ethernet o redes #[i Low Power Wide Area Network (LPWAN)], incluyendo protocolos como #[i LoRa].
     <!------------------------------------------ SUBTEMA 3 ------------------------------------------>
     Separador
     #t_6_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -255,16 +255,16 @@
             figure
               img(src="@/assets/curso/temas/img272.svg", alt=""  style="max-width: 150px").m-auto
     p.mb-5 Se reconoce que el cumplimiento de estos requisitos influye directamente en el desempeño de la red #[i IoT].
-    .box___style_16.mb-5.mb-lg-0(data-aos="zoom-in")
+    .box___style_16.mb-5(data-aos="zoom-in")
       .row.align-items-center
-        .col-xl.order-2.order-lg-1
+        .col-xl.order-2.order-lg-1.fit___box_container
           h5 Cálculo de consumo energético en dispositivos #[i IoT]. 
           p En aplicaciones #[i IoT], muchos dispositivos funcionan mediante baterías, por lo que el consumo energético se convierte en un factor crítico en el diseño de la red. Las tecnologías utilizadas deben optimizar la transmisión de datos para prolongar la vida útil del dispositivo.  El tiempo de funcionamiento de un dispositivo alimentado por batería puede estimarse mediante la siguiente expresión:
-          .row
+          .row.align-items-center
+            .col.p-0
+              p.mb-0.texto-right Tiempo de operación =
             .col
-              p.mb-0 Tiempo de operación =
-            .col
-              .box___style_18
+              .box___style_18.text-center
                 p.mb-0.line--bottom Capacidad de bateria
                 p.mb-0 Consumo promedio
           p Dónde:
@@ -285,7 +285,7 @@
         .col-xl-auto
           figure
             img(src='@/assets/curso/temas/img274.png', alt='').m-auto
-        .col-xl
+        .col-xl.fit___box_container
           h5 Ejemplo de cálculo
           p Supongamos un sensor IoT con las siguientes características:
           ul.fa-ul.estilo___ul.mb-3
@@ -298,23 +298,23 @@
                 i.fas.fa-arrow-alt-circle-right
               | Consumo promedio del dispositivo = #[b 20 mA].
           p Aplicando la ecuación:
-          .row
+          .row.align-items-center
+            .col.p-0
+              p.mb-0.texto-right Tiempo =
             .col
-              p.mb-0 Tiempo =
-            .col
-              .box___style_18.fit___box_18
+              .box___style_18.text-center
                 p.mb-0.line--bottom 2000
                 p.mb-0 20
           p Tiempo = 100 horas.
           h5 Interpretación técnica
-          p.mb-0 Esto significa que el dispositivo puede operar aproximadamente #[b 100 horas de manera continua] antes de requerir recarga o reemplazo de batería. En aplicaciones reales, tecnologías como #[b #[i LoRa, Zigbee o NB-IoT]] implementan mecanismos de ahorro energético que permiten reducir significativamente el consumo promedio, extendiendo la vida útil de los dispositivos a #[b meses o incluso años de funcionamiento].
+          p.mb-0 Esto significa que el dispositivo puede operar aproximadamente #[b 100 horas de manera continua] antes de requerir recarga o reemplazo de batería. En aplicaciones reales, tecnologías como #[b #[i LoRa, Zigbee o NB–IoT]] implementan mecanismos de ahorro energético que permiten reducir significativamente el consumo promedio, extendiendo la vida útil de los dispositivos a #[b meses o incluso años de funcionamiento].
     <!------------------------------------------ SUBTEMA 4 ------------------------------------------>
     Separador
     #t_6_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 6.4 Integración con #[i Cloud Computing]
     .color___box_3
       .px-5
-        p.mb-5 Los datos recopilados por dispositivos #[i IoT] suelen enviarse a plataformas en la nube (#[i Cloud Computing]), donde se almacenan y procesan para facilitar su gestión y aprovechamiento.
+        p.mb-5 Los datos recopilados por dispositivos #[i IoT] suelen enviarse a plataformas en la nube (#[i cloud computing]), donde se almacenan y procesan para facilitar su gestión y aprovechamiento.
         .row.justify-content-center.mb-5
           .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
             .box___style_5.h-100

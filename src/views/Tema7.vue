@@ -38,7 +38,7 @@
                   img(src='@/assets/curso/temas/img294.png', alt='' style="max-width: 500px").m-auto
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
-                h4 #[i Site survey] y evaluación del entorno
+                h4 #[i site survey] y evaluación del entorno
                 p.mb-0 Se realiza un estudio técnico del entorno físico para identificar obstáculos estructurales, interferencias existentes, densidad de dispositivos y distribución espacial de usuarios. El resultado permite ajustar el diseño inicial.
               .col-xl-6
                 figure
@@ -169,7 +169,7 @@
       h4.mb-0 #[i Site survey]
     .color___box_3
       .px-5
-        p.mb-5 El #[i Site survey] es el estudio técnico que permite determinar la mejor ubicación de puntos de acceso y antenas.
+        p.mb-5 El #[i site survey] es el estudio técnico que permite determinar la mejor ubicación de puntos de acceso y antenas.
         .row.justify-content-center.mb-5
           .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
             .box___style_4.h-100
@@ -339,7 +339,7 @@
         .row.justify-content-center.mb-5
           .col-xl-8
             .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
-              h5 Tabla 9.
+              h5 Tabla 10.
               span Parámetros técnicos recomendados en evaluación WLAN
             .tabla-a(data-aos="zoom-in").mb-3
               table
@@ -390,7 +390,7 @@
                 h5 Figura 6.
                 span Diagramas físicos
               figure.mb-3
-                img(src='@/assets/curso/temas/img318.jpg', alt='').m-auto
+                img(src='@/assets/curso/temas/img318.jpg', alt='Diagrama físico de instalación de red informática con sala de servidores, racks de equipos, puntos de acceso inalámbrico, antena externa, rutas y ductos de cableado, y estaciones de trabajo conectadas mediante cableado estructurado y señal Wi-Fi.').m-auto
           .row(titulo="Diagramas lógicos").ajuste-cajaAcordion
             p.mb-3 Representan la organización funcional de la red. Integran aspectos como la segmentación por VLAN, el direccionamiento IP, las rutas de comunicación y las políticas de acceso. Facilitan la comprensión del flujo de información dentro de la infraestructura tecnológica.
             .ajuste___limite-acordion
@@ -398,7 +398,7 @@
                 h5 Figura 7.
                 span Diagramas lógicos
               figure.mb-3
-                img(src='@/assets/curso/temas/img319.jpg', alt='').m-auto
+                img(src='@/assets/curso/temas/img319.jpg', alt='Diagrama lógico de red con conexión a Internet, firewall y router central, segmentación por VLAN para administración, oficina, invitados y servidores, equipos conectados por segmentos VLAN, puntos de acceso Wi-Fi, rutas de conexión y servidores de aplicaciones.').m-auto
           .row(titulo="Planos y escalas").ajuste-cajaAcordion
             p.mb-3 Permiten elaborar representaciones técnicas respetando proporciones que facilitan la ubicación precisa de los dispositivos y la estimación de cobertura. Favorecen la integración de mapas de calor (#[i heatmaps]) sobre planos arquitectónicos.
             .ajuste___limite-acordion
@@ -406,7 +406,7 @@
                 h5 Figura 8.
                 span Planos y escalas
               figure.mb-3
-                img(src='@/assets/curso/temas/img320.jpg', alt='').m-auto
+                img(src='@/assets/curso/temas/img320.jpg', alt='Mapa de intensidad de señal Wi-Fi en una oficina con puntos de acceso AP1 y AP2, áreas de cobertura clasificadas por niveles de señal desde excelente hasta muy débil, y distribución de espacios como recepción, sala de juntas, oficina abierta, cuarto de servidores y sala de descanso.').m-auto
           .row(titulo="Herramientas para diseño de diagramas de red").ajuste-cajaAcordion
             p.mb-3 Facilitan la elaboración profesional de diagramas técnicos mediante aplicaciones especializadas como #[i Microsoft Visio, Lucidchart, Draw.io y AutoCAD], las cuales contribuyen a representar la arquitectura física y lógica de la red de forma organizada.
             .ajuste___limite-acordion

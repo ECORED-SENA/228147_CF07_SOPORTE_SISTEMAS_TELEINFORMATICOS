@@ -1229,7 +1229,7 @@
         .col-xl-6
           .box___style_10-1
             p.mb-0 Supongamos un enlace inalámbrico con las siguientes características:
-            p.mb-0 Potencia transmisión = #[b 20 dBm].
+            p.mb-0 Potencia de transmisión = #[b 20 dBm].
             p.mb-0 Ganancia antena transmisora = #[b 5 dBi].
             p.mb-0 Ganancia antena receptora = #[b 3 dBi].
             p.mb-0 Pérdidas estimadas = #[b 80 dB].
@@ -1249,7 +1249,7 @@
           .box___style_11-1
             p.mb-0 El margen de desvanecimiento representa la diferencia entre la potencia recibida y la sensibilidad mínima del receptor.
           .box___style_11-2
-            p.mb-0.box___style_9.fit___box_10 #[i Fade Margin] = P<span class="fit__text-small">RX</span> - Sensibilidad receptor.
+            p.mb-0.box___style_9.fit___box_10 #[i Fade Margin] = P<span class="fit__text-small">RX</span> - Sensibilidad del receptor.
           .box___style_11-3
             p.mb-0 En redes Wi-Fi se recomienda un margen mínimo entre #[b 10 dB y 20 dB] para garantizar estabilidad ante variaciones ambientales, interferencias o cambios en las condiciones de propagación.
         .col-xl-6.order-1.order-lg-2
