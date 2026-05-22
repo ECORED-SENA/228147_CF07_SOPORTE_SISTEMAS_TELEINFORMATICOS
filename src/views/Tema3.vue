@@ -18,7 +18,7 @@
       h5 Figura 2.
       span Arquitectura jerárquica de red
     figure(data-aos="zoom-in").mb-5
-      img(src='@/assets/curso/temas/img120.svg', alt='Esquema de arquitectura de red inalámbrica con capas de acceso, distribución y núcleo, que incluye puntos de acceso, equipos de control y conexión a servicios corporativos e internet. ').m-auto
+      img(src='@/assets/curso/temas/img120.svg', alt='Diagrama de arquitectura jerárquica de red empresarial con representación de las capas de acceso, distribución y núcleo. La capa de acceso incluye dispositivos finales conectados mediante cableado Ethernet y alimentación PoE para autenticación y conectividad inicial. La capa de distribución integra switches encargados de la agregación del tráfico, políticas de red, segmentación y calidad de servicio. La capa de núcleo presenta routers y enlaces de alta velocidad orientados a la interconexión con servidores, centros de datos y servicios en la nube.').m-auto
     .row.align-items-center.justify-content-center.mb-0
       .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
         figure
